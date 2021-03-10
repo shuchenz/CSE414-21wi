@@ -1,7 +1,7 @@
 SELECT y.name AS country, y.population AS population, count(u) AS num_religions
 FROM geo.world x, x.mondial.country y,
-(CASE WHEN is_array(y.religions) THEN y.religions
-      ELSE [y.religions] END) AS u
+      (CASE WHEN is_array(y.religions) THEN y.religions
+            ELSE [y.religions] END) AS u
 GROUP BY y.name, y.population
 ORDER BY y.name ASC;
 

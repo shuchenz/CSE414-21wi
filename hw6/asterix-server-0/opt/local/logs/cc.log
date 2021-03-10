@@ -6819,3 +6819,159 @@ Caused by: org.apache.asterix.runtime.exceptions.TypeMismatchException: ASX0002:
 11:07:39.834 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.181
 11:08:29.469 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.182
 11:09:01.629 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.183
+11:51:20.495 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.185
+11:52:43.756 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.186
+11:53:15.980 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.187
+11:53:46.954 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.188
+11:54:25.788 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.189
+11:56:00.192 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.190
+11:56:53.345 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.191
+11:57:48.220 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.192
+11:58:15.170 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.193
+11:59:04.560 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.194
+11:59:20.223 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.195
+12:07:28.058 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.196
+12:14:59.379 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.197
+12:16:27.606 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.199
+12:22:18.976 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.198
+12:24:56.940 [HttpExecutor(port:19001)-15] ERROR org.apache.asterix - ASX1001: Syntax error: In line 3 >>from geo.world x, x.mondial.sea y;<< Encountered "from" at column 1. 
+org.apache.asterix.common.exceptions.CompilationException: ASX1001: Syntax error: In line 3 >>from geo.world x, x.mondial.sea y;<< Encountered "from" at column 1. 
+	at org.apache.asterix.lang.sqlpp.parser.SQLPPParser.parse(SQLPPParser.java:288) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.api.http.server.ApiServlet.post(ApiServlet.java:139) [asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.hyracks.http.server.AbstractServlet.handle(AbstractServlet.java:92) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.handle(HttpRequestHandler.java:80) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.call(HttpRequestHandler.java:65) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.call(HttpRequestHandler.java:37) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+12:25:14.941 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.201
+12:25:44.204 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.200
+12:26:04.777 [HttpExecutor(port:19001)-11] ERROR org.apache.asterix - ASX1001: Syntax error: In line 2 >>from geo.world x<< Encountered <EOF> at column 16. 
+org.apache.asterix.common.exceptions.CompilationException: ASX1001: Syntax error: In line 2 >>from geo.world x<< Encountered <EOF> at column 16. 
+	at org.apache.asterix.lang.sqlpp.parser.SQLPPParser.parse(SQLPPParser.java:288) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.api.http.server.ApiServlet.post(ApiServlet.java:139) [asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.hyracks.http.server.AbstractServlet.handle(AbstractServlet.java:92) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.handle(HttpRequestHandler.java:80) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.call(HttpRequestHandler.java:65) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.call(HttpRequestHandler.java:37) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+12:26:08.760 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.202
+12:26:53.398 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.203
+12:27:35.535 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.204
+12:28:40.479 [QueryTranslator] INFO  org.apache.asterix.app.translator.QueryTranslator - ASX1074: Cannot resolve ambiguous alias reference for identifier seas (in line 6, at column 19)
+org.apache.asterix.common.exceptions.CompilationException: ASX1074: Cannot resolve ambiguous alias reference for identifier seas (in line 6, at column 19)
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.resolve(VariableCheckAndRewriteVisitor.java:132) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.visit(VariableCheckAndRewriteVisitor.java:92) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.visit(VariableCheckAndRewriteVisitor.java:50) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.expression.VariableExpr.accept(VariableExpr.java:66) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:359) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:373) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:308) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.visit(VariableCheckAndRewriteVisitor.java:210) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.visit(VariableCheckAndRewriteVisitor.java:50) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.expression.CallExpr.accept(CallExpr.java:62) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:359) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:373) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:285) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:66) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.expression.OperatorExpr.accept(OperatorExpr.java:123) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:359) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:203) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:66) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.clause.WhereClause.accept(WhereClause.java:53) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:131) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:66) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.struct.SetOperationInput.accept(SetOperationInput.java:57) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:194) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:59) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.clause.SelectSetOperation.accept(SelectSetOperation.java:47) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:308) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:59) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.expression.SelectExpression.accept(SelectExpression.java:55) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:359) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:214) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:59) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.statement.Query.accept(Query.java:94) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.SqlppQueryRewriter.variableCheckAndRewrite(SqlppQueryRewriter.java:213) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.SqlppQueryRewriter.rewrite(SqlppQueryRewriter.java:119) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.api.common.APIFramework.reWriteQuery(APIFramework.java:191) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.rewriteCompileQuery(QueryTranslator.java:1989) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.lambda$handleQuery$3(QueryTranslator.java:2500) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.createAndRunJob(QueryTranslator.java:2625) [asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.deliverResult(QueryTranslator.java:2534) [asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.handleQuery(QueryTranslator.java:2513) [asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.compileAndExecute(QueryTranslator.java:393) [asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.api.http.server.ApiServlet.post(ApiServlet.java:155) [asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.hyracks.http.server.AbstractServlet.handle(AbstractServlet.java:92) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.handle(HttpRequestHandler.java:80) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.call(HttpRequestHandler.java:65) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.call(HttpRequestHandler.java:37) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+12:28:40.487 [HttpExecutor(port:19001)-14] ERROR org.apache.asterix - ASX1074: Cannot resolve ambiguous alias reference for identifier seas (in line 6, at column 19)
+org.apache.asterix.common.exceptions.CompilationException: ASX1074: Cannot resolve ambiguous alias reference for identifier seas (in line 6, at column 19)
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.resolve(VariableCheckAndRewriteVisitor.java:132) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.visit(VariableCheckAndRewriteVisitor.java:92) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.visit(VariableCheckAndRewriteVisitor.java:50) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.expression.VariableExpr.accept(VariableExpr.java:66) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:359) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:373) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:308) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.visit(VariableCheckAndRewriteVisitor.java:210) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.visitor.VariableCheckAndRewriteVisitor.visit(VariableCheckAndRewriteVisitor.java:50) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.expression.CallExpr.accept(CallExpr.java:62) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:359) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:373) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:285) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:66) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.expression.OperatorExpr.accept(OperatorExpr.java:123) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:359) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:203) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:66) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.clause.WhereClause.accept(WhereClause.java:53) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:131) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:66) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.struct.SetOperationInput.accept(SetOperationInput.java:57) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:194) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:59) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.clause.SelectSetOperation.accept(SelectSetOperation.java:47) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:308) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:59) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.expression.SelectExpression.accept(SelectExpression.java:55) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppSimpleExpressionVisitor.visit(AbstractSqlppSimpleExpressionVisitor.java:359) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:214) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.visitor.base.AbstractSqlppExpressionScopingVisitor.visit(AbstractSqlppExpressionScopingVisitor.java:59) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.common.statement.Query.accept(Query.java:94) ~[asterix-lang-common-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.SqlppQueryRewriter.variableCheckAndRewrite(SqlppQueryRewriter.java:213) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.lang.sqlpp.rewrites.SqlppQueryRewriter.rewrite(SqlppQueryRewriter.java:119) ~[asterix-lang-sqlpp-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.api.common.APIFramework.reWriteQuery(APIFramework.java:191) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.rewriteCompileQuery(QueryTranslator.java:1989) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.lambda$handleQuery$3(QueryTranslator.java:2500) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.createAndRunJob(QueryTranslator.java:2625) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.deliverResult(QueryTranslator.java:2534) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.handleQuery(QueryTranslator.java:2513) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.app.translator.QueryTranslator.compileAndExecute(QueryTranslator.java:393) ~[asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.asterix.api.http.server.ApiServlet.post(ApiServlet.java:155) [asterix-app-0.9.4.1.jar:0.9.4.1]
+	at org.apache.hyracks.http.server.AbstractServlet.handle(AbstractServlet.java:92) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.handle(HttpRequestHandler.java:80) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.call(HttpRequestHandler.java:65) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at org.apache.hyracks.http.server.HttpRequestHandler.call(HttpRequestHandler.java:37) [hyracks-http-0.3.4-SNAPSHOT.jar:0.3.4-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+12:29:09.888 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.205
+12:38:29.106 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.206
+12:38:38.822 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.207
+12:38:39.647 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.208
+12:38:40.485 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.209
+12:38:41.337 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.210
+12:38:42.350 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.211
+12:38:43.445 [Worker:ClusterController] INFO  org.apache.hyracks.control.cc.work.JobCleanupWork - Cleanup for job: JID:0.212

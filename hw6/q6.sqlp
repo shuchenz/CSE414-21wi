@@ -7,5 +7,5 @@ FROM geo.world x, x.mondial.country y
 ORDER BY array_count(mountains) DESC;
 
 /*
-Runtime is 3.446 sec
+Runtime is 2.577 sec
 */

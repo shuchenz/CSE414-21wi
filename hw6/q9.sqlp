@@ -1,15 +1,4 @@
-SELECT y1.name AS first_country, y2.name AS second_country
-FROM geo.world x, x.mondial.country y1, x.mondial.country y2,
-x.mondial.mountain m, split(m.`-country`, " ") m1, split(m.`-country`, " ") m2,
-x.mondial.sea s, split(s.`-country`, " ") s1, split(s.`-country`, " ") s2
-WHERE y1.`-car_code` = m1
-AND y2.`-car_code` = m2
-AND y1.`-car_code` = s1
-AND y1.`-car_code` = s2
-AND y1.`-car_code` > y2.`-car_code`;
-
-
-SELECT y1.name AS first_country, y2.name AS second_country
+SELECT DISTINCT y1.name AS first_country, y2.name AS second_country
 FROM geo.world x, x.mondial.country y1, x.mondial.country y2,
 x.mondial.mountain m, split(m.`-country`, " ") m1, split(m.`-country`, " ") m2,
 x.mondial.sea s, split(s.`-country`, " ") s1, split(s.`-country`, " ") s2
@@ -17,4 +6,8 @@ WHERE y1.`-car_code` > y2.`-car_code`
 AND y1.`-car_code` = m1
 AND y2.`-car_code` = m2
 AND y1.`-car_code` = s1
-AND y1.`-car_code` = s2;
+AND y2.`-car_code` = s2;
+
+/*
+Runtime is 394.666 sec
+*/

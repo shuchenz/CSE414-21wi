@@ -1,6 +1,6 @@
 SELECT y.`-car_code` AS country_code, y.name AS country_name, seas
 FROM geo.world x, x.mondial.country y
-LET seas = (SELECT z.name as mountain, z.height as height
+LET seas = (SELECT z as sea, z.height as height
 		    FROM x.mondial.sea z, split(z.`-country`, " ") k
 		    WHERE y.`-car_code` = k)
 WHERE array_count(seas) >= 2
