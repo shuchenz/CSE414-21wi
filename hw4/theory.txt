@@ -1,0 +1,31 @@
+a. (10 points) R(A,B,C,D,E) with functional dependencies D → B, CE → A.
+    We pick X = D, and X+ = {D, B}
+    Thus it violates BCNF and we need to do further decomposition
+    We now have R1 = {D, B} and R2 = {A, C, D, E}
+    Since R1 is in BCNF, we only need to decompose {A, C, D, E}
+    And pick X = CE, X+ = {A, C, E}
+    Since X+ != X and X+ != all elements in R2
+    Thus we have R3 = {A, C, E} and R4 = {D, C, E}
+    Where for R3 we have: CE+ = {A, C, E} = R3
+    And similarly we checked R4 is in BCNF
+    We now have {D, B} {A, C, E} {D, C, E}
+
+b. (10 points) S(A,B,C,D,E) with functional dependencies A → E, BC → A, DE → B.
+    We pick X = A, X+ = {A, E}
+    Thus it violates BCNF and we need to do further decomposition
+    We now have R1 = {A, E} and R2 = {B, C, D, A}
+    And R1 is in BCNF, we only need to decompose R2
+    Pick X = BC, X+ = {B, C, A}
+    Since X+ != X and X+ != all elements in R2
+    Thus we have R3 = {B, C, A} and R4 = {D, B, C}
+    Both of them are in BCNF
+    We now have {A, E} {B, C, A} {D, B, C}
+
+c. (5 points) All subsets of {A,B,C,D} are closed.
+    A → A, B → B, C → C, D → D
+
+d. (5 points) The only closed subsets of {A,B,C,D} are {} and {A,B,C,D}.
+    A → B, B → C, C → D, D → A
+
+e. (5 points) The only closed subsets of {A,B,C,D} are {}, {B,C}, and {A,B,C,D}.
+    B → C, C → B, A → BCD, D → ABC

@@ -1,0 +1,7 @@
+Th experience of using DBMS cloud service is new for me. It is more convenient to create the table, import and store the data, 
+and execute the query compare with our previous experience with executing code through terminal. However, I don't feel quite satisfied 
+with my experience because cloud service is relatively unstable. I have experienced a few times when I cannot login to the service or 
+connect to the server with vscode. 
+
+I think the idea of offering a DBMS as a service in a public cloud is great since it provides more people with the ability to 
+compute and deal with large amount of data, which is difficult for the computing ability of a single device.
